@@ -98,7 +98,6 @@
     <origin xyz="0.2325 0.0001 1.9201"/>
   </joint>
   <joint name="base_wheel_left" type="fixed">
-	<axis xyz="0 1 0"/>
 	<parent link="base"/>
 	<child link="wheel_left"/>
 	<origin xyz="-0.1 0.4 0"/>
