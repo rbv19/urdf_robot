@@ -82,27 +82,32 @@
     </collision>
   </link>
   <joint name="base_wheel_left_joint" type="fixed">
+    <axis xyz="0 1 0"/>
     <parent link="base"/>
     <child link="wheel_left"/>
     <origin xyz="-0.1 0.4 0"/>
     <limit effort="1" velocity="1"/>
   </joint>
   <joint name="base_laser_vert_bottom_joint" type="fixed">
+    <axis xyz="0 1 0"/>
     <parent link="base"/>
     <child link="laser_vert_bottom"/>
     <origin xyz="0.3158 -0.0021 0.5100"/>
   </joint>
   <joint name="base_laser_vert_top_right_joint" type="fixed">
+    <axis xyz="0 1 0"/>
     <parent link="base"/>
     <child link="laser_vert_top_right"/>
     <origin xyz="0.2978 -0.1450 1.8451"/>
   </joint>
   <joint name="base_laser_vert_top_left_joint" type="fixed">
+    <axis xyz="0 1 0"/>
     <parent link="base"/>
     <child link="laser_vert_top_left"/>
     <origin xyz="0.2997 0.1531 1.8443"/>
   </joint>
   <joint name="base_laser_horiz_joint" type="fixed">
+    <axis xyz="0 1 0"/>
     <parent link="base"/>
     <child link="laser_horiz"/>
     <origin xyz="0.2325 0.0001 1.9201"/>
